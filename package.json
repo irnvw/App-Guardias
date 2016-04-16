@@ -1,0 +1,15 @@
+{
+  "name": "Guardias",
+  "version": "0.0.1",
+  "description": "Guardias Personal Area Tecnica",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angular-ui-router": "^0.2.18",
+    "body-parser": "^1.15.0",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.11",
+    "ui-router": "^1.0.0-alpha.3"
+  }
+}

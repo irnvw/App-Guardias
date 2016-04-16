@@ -1,0 +1,22 @@
+body {
+    background: aliceblue;
+}
+.panel_login{
+    background : beige;
+    width: 300px;
+    height: 200px;
+    margin-top: 120px;
+    border: line;
+    
+}
+.acceso{
+    
+    margin-left: 21px;
+    padding-top: 30px;
+}
+
+.btn_login{
+ margin-top: 35px; 
+ margin-left: 90px;    
+    
+}

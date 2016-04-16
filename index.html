@@ -1,0 +1,49 @@
+<html>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"/> 
+    <link rel="stylesheet" href="css/main.css"/>
+<head> 
+    
+    <div class="container">
+    <h3 class="titulo_version center-block"> -- Guardias Tecnica <small>Version:0.0.1 </small> -- </h3> 
+        </div>
+        
+        </head>
+<body ng-app="Guardias" ng-show="!Logged">
+    <div class="container">
+    <h3 class="center-block">Ingrese un usuario y su clave de acceso </h3>
+    </div>    
+    <div class="container" ng-controller="control-logueo">
+        
+                <div class="panel_login panel panel-primary">
+                    <div class="panel-heading text-center">Acceso usuarios</div>
+                    <div class="cont_login center-block"  >
+                        <div class="acceso center-block ">
+                            Nombre-: <input type="text" ng-model="logon.nombre" placeholder="Nombre"/>
+                            <div>
+                            Clave----: <input type="password" ng-model="logon.clave" placeholder="Clave/Password"/>        
+                            </div>
+                            <button ng-click="loginUsr()" class="btn_login btn-primary">Ingresar</button>
+                        </div>
+                        </div>
+                        
+                </div>
+                            <div>
+        
+                                <label for="logeado"> {{msg}} </label>
+                            </div>
+        
+    </div>
+    
+    
+    
+
+    
+</body>
+<footer></footer>
+    
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="controladores/app.js"></script>
+    <script src="controladores/ctrl-autenticacion.js"></script>
+    
+   
+</html>
